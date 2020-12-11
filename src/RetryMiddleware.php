@@ -1,9 +1,9 @@
 <?php
 namespace GuzzleHttpFork;
 
-use GuzzleHttpFork\Promise\PromiseInterface;
-use GuzzleHttpFork\Promise\RejectedPromise;
-use GuzzleHttpFork\Psr7;
+use GuzzleHttp\Promise\PromiseInterface;
+use GuzzleHttp\Promise\RejectedPromise;
+use GuzzleHttp\Psr7;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

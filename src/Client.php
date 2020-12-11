@@ -3,8 +3,8 @@ namespace GuzzleHttpFork;
 
 use GuzzleHttpFork\Cookie\CookieJar;
 use GuzzleHttpFork\Exception\GuzzleException;
-use GuzzleHttpFork\Promise;
-use GuzzleHttpFork\Psr7;
+use GuzzleHttp\Promise;
+use GuzzleHttp\Psr7;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;

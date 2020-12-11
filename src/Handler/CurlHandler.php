@@ -1,7 +1,7 @@
 <?php
 namespace GuzzleHttpFork\Handler;
 
-use GuzzleHttpFork\Psr7;
+use GuzzleHttp\Psr7;
 use Psr\Http\Message\RequestInterface;
 
 /**

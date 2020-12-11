@@ -124,7 +124,7 @@ class RequestException extends TransferException
      */
     public static function getResponseBodySummary(ResponseInterface $response)
     {
-        return \GuzzleHttpFork\Psr7\get_message_body_summary($response);
+        return \GuzzleHttp\Psr7\get_message_body_summary($response);
     }
 
     /**

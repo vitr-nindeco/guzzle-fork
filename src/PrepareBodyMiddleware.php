@@ -1,8 +1,8 @@
 <?php
 namespace GuzzleHttpFork;
 
-use GuzzleHttpFork\Promise\PromiseInterface;
-use GuzzleHttpFork\Psr7;
+use GuzzleHttp\Promise\PromiseInterface;
+use GuzzleHttp\Psr7;
 use Psr\Http\Message\RequestInterface;
 
 /**

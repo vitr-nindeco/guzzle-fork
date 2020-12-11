@@ -3,9 +3,9 @@ namespace GuzzleHttpFork\Handler;
 
 use GuzzleHttpFork\Exception\ConnectException;
 use GuzzleHttpFork\Exception\RequestException;
-use GuzzleHttpFork\Promise\FulfilledPromise;
-use GuzzleHttpFork\Promise\PromiseInterface;
-use GuzzleHttpFork\Psr7;
+use GuzzleHttp\Promise\FulfilledPromise;
+use GuzzleHttp\Promise\PromiseInterface;
+use GuzzleHttp\Psr7;
 use GuzzleHttpFork\TransferStats;
 use GuzzleHttpFork\Utils;
 use Psr\Http\Message\RequestInterface;

@@ -3,8 +3,8 @@ namespace GuzzleHttpFork;
 
 use GuzzleHttpFork\Cookie\CookieJarInterface;
 use GuzzleHttpFork\Exception\RequestException;
-use GuzzleHttpFork\Promise\RejectedPromise;
-use GuzzleHttpFork\Psr7;
+use GuzzleHttp\Promise\RejectedPromise;
+use GuzzleHttp\Psr7;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Log\LoggerInterface;
 

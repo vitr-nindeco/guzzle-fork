@@ -3,9 +3,9 @@ namespace GuzzleHttpFork\Handler;
 
 use GuzzleHttpFork\Exception\ConnectException;
 use GuzzleHttpFork\Exception\RequestException;
-use GuzzleHttpFork\Promise\FulfilledPromise;
-use GuzzleHttpFork\Psr7;
-use GuzzleHttpFork\Psr7\LazyOpenStream;
+use GuzzleHttp\Promise\FulfilledPromise;
+use GuzzleHttp\Psr7;
+use GuzzleHttp\Psr7\LazyOpenStream;
 use GuzzleHttpFork\TransferStats;
 use Psr\Http\Message\RequestInterface;
 
@@ -379,7 +379,7 @@ class CurlFactory implements CurlFactoryInterface
         if (isset($options['sink'])) {
             $sink = $options['sink'];
             if (!is_string($sink)) {
-                $sink = \GuzzleHttpFork\Psr7\stream_for($sink);
+                $sink = \GuzzleHttp\Psr7\stream_for($sink);
             } elseif (!is_dir(dirname($sink))) {
                 // Ensure that the directory exists before failing in curl.
                 throw new \RuntimeException(sprintf(
