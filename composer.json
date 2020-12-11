@@ -1,5 +1,5 @@
 {
-    "name": "guzzlehttp/guzzle-fork",
+    "name": "guzzlehttp-fork/guzzle",
     "type": "library",
     "description": "Guzzle is a PHP HTTP client library",
     "keywords": [
@@ -36,7 +36,8 @@
         "psr/log": "Required for using the Log middleware"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "vendor-dir": "guzzlehttp-fork/"
     },
     "extra": {
         "branch-alias": {
