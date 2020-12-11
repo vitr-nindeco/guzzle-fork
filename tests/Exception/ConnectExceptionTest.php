@@ -1,12 +1,12 @@
 <?php
-namespace GuzzleHttp\Tests\Exception;
+namespace GuzzleHttpFork\Tests\Exception;
 
-use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Psr7\Request;
+use GuzzleHttpFork\Exception\ConnectException;
+use GuzzleHttpFork\Psr7\Request;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \GuzzleHttp\Exception\ConnectException
+ * @covers \GuzzleHttpFork\Exception\ConnectException
  */
 class ConnectExceptionTest extends TestCase
 {

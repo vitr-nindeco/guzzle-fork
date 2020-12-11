@@ -1,9 +1,9 @@
 <?php
-namespace GuzzleHttp\Handler;
+namespace GuzzleHttpFork\Handler;
 
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\Promise;
-use GuzzleHttp\Utils;
+use GuzzleHttpFork\Promise as P;
+use GuzzleHttpFork\Promise\Promise;
+use GuzzleHttpFork\Utils;
 use Psr\Http\Message\RequestInterface;
 
 /**

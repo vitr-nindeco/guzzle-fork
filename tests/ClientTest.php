@@ -1,17 +1,17 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace GuzzleHttpFork\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Middleware;
-use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Psr7\Uri;
-use GuzzleHttp\RequestOptions;
+use GuzzleHttpFork\Client;
+use GuzzleHttpFork\Cookie\CookieJar;
+use GuzzleHttpFork\Handler\MockHandler;
+use GuzzleHttpFork\HandlerStack;
+use GuzzleHttpFork\Middleware;
+use GuzzleHttpFork\Promise\PromiseInterface;
+use GuzzleHttpFork\Psr7;
+use GuzzleHttpFork\Psr7\Request;
+use GuzzleHttpFork\Psr7\Response;
+use GuzzleHttpFork\Psr7\Uri;
+use GuzzleHttpFork\RequestOptions;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
 
@@ -219,7 +219,7 @@ class ClientTest extends TestCase
     }
 
     /**
-     * @expectedException \GuzzleHttp\Exception\ClientException
+     * @expectedException \GuzzleHttpFork\Exception\ClientException
      */
     public function testThrowsHttpErrorsByDefault()
     {
@@ -231,7 +231,7 @@ class ClientTest extends TestCase
 
     /**
      * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage cookies must be an instance of GuzzleHttp\Cookie\CookieJarInterface
+     * @expectedExceptionMessage cookies must be an instance of GuzzleHttpFork\Cookie\CookieJarInterface
      */
     public function testValidatesCookies()
     {
@@ -751,7 +751,7 @@ class ClientTest extends TestCase
     }
 
     /**
-     * @expectedException \GuzzleHttp\Exception\InvalidArgumentException
+     * @expectedException \GuzzleHttpFork\Exception\InvalidArgumentException
      * @expectedExceptionMessage IDN conversion failed (errors: IDNA_ERROR_LEADING_HYPHEN)
      */
     public function testExceptionOnInvalidIdn()

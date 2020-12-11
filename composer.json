@@ -1,5 +1,5 @@
 {
-    "name": "guzzlehttp/guzzle",
+    "name": "guzzlehttp/guzzle-fork",
     "type": "library",
     "description": "Guzzle is a PHP HTTP client library",
     "keywords": [
@@ -45,7 +45,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GuzzleHttp\\": "src/"
+            "GuzzleHttpFork\\": "src/"
         },
         "files": [
             "src/functions_include.php"
@@ -53,7 +53,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "GuzzleHttp\\Tests\\": "tests/"
+            "GuzzleHttpFork\\Tests\\": "tests/"
         }
     }
 }

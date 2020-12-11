@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp\Exception;
+namespace GuzzleHttpFork\Exception;
 
 use Throwable;
 

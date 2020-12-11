@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp;
+namespace GuzzleHttpFork;
 
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

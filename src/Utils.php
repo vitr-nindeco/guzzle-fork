@@ -1,7 +1,7 @@
 <?php
-namespace GuzzleHttp;
+namespace GuzzleHttpFork;
 
-use GuzzleHttp\Exception\InvalidArgumentException;
+use GuzzleHttpFork\Exception\InvalidArgumentException;
 use Psr\Http\Message\UriInterface;
 use Symfony\Polyfill\Intl\Idn\Idn;
 

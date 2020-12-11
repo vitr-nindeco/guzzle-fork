@@ -1,11 +1,11 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace GuzzleHttpFork\Tests;
 
-use GuzzleHttp\UriTemplate;
+use GuzzleHttpFork\UriTemplate;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers GuzzleHttp\UriTemplate
+ * @covers GuzzleHttpFork\UriTemplate
  */
 class UriTemplateTest extends TestCase
 {
